@@ -280,7 +280,7 @@ defmodule Goal do
   |                        | `:max`                      | maximum string length                                                                                |
   |                        | `:trim`                     | boolean to remove leading and trailing spaces                                                        |
   |                        | `:squish`                   | boolean to trim and collapse spaces                                                                  |
-  |                        | `:format`                   | `:uuid`, `:email`, `:password`, `:url`                                                               |
+  |                        | `:format`                   | `:uuid`, `:email`, `:password`, `:url`, or a regex                                                   |
   |                        | `:subset`                   | list of required strings                                                                             |
   |                        | `:included`                 | list of allowed strings                                                                              |
   |                        | `:excluded`                 | list of disallowed strings                                                                           |
